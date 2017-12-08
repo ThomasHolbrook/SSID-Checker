@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PATH</key>
+		<string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public/Applications/Wireshark.app/Contents/MacOS:/usr/local/sbin</string>
+	</dict>
+	<key>Label</key>
+	<string>uk.co.tomholbrook.SSIDChecker</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/bin/SSIDChecker</string>
+		<string>JAMF EDU 5GHz</string>
+		<string>5</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>WatchPaths</key>
+	<array>
+		<string>/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist</string>
+	</array>
+</dict>
+</plist>
