@@ -8,7 +8,7 @@ The latest (and possiably only) release will be avaliable here:
 
 https://github.com/j24professionalservices/SSID-Checker/releases
 
-#Usage:
+	#Usage:
 	SSIDChecker <allowed_ssid> <wait_time>
 	
 	SSIDChecker checks the current SSID against allowed SSID
