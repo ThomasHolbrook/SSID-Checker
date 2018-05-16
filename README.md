@@ -6,7 +6,7 @@ Includes an example LaunchD to trigger the tool whenever a WiFi change occurs.
 
 The latest (and possiably only) release will be avaliable here:
 
-https://github.com/j24professionalservices/SSID-Checker/releases
+https://github.com/ThomasHolbrook/SSID-Checker/releases
 
 	#Usage:
 	SSIDChecker <allowed_ssid> <wait_time>
